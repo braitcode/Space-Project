@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { destinationDB } from "../DB/DestinationDB";
 import "../css/Destination.css"
+import LazyLoad from "react-lazy-load";
+
 
 const Destination = () => {
   const [items] = useState(destinationDB);
@@ -17,7 +19,9 @@ const Destination = () => {
             </h1>
           </div>
           <div className="image">
-            <img src={images} title={name} className="dest-img" />
+            <LazyLoad>
+                  <img src={images} title={name} className="dest-img" />
+            </LazyLoad>
           </div>
         </div>
         <div className="right-side-dest">

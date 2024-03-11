@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { technologyDB } from "../DB/TechnologyDB";
 import '../css/Technology.css'
+import LazyLoad from 'react-lazy-load';
 
 
 const Technology = () => {
@@ -39,8 +40,10 @@ const Technology = () => {
                 </div>
               </div>
               <div className="right-side-content">
+                <LazyLoad>
                 <img src={images.portrait} title={name} className="desktop-tech"/>
                 <img src={images.landscape} title={name} className="mobile-tech" />
+                </LazyLoad>
               </div>
             </div>
           </main>

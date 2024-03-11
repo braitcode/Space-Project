@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../css/Crew.css"
 import {CrewDB} from "../DB/CrewDB"
+import LazyLoad from "react-lazy-load";
 // import { Button } from 'react-bootstrap';
 
 const Crew = () => {
@@ -30,7 +31,9 @@ const Crew = () => {
                         </div>
                     </div>
                     <div className="right-content-crew">
-                        <img src={images} title={name} className='crew-img' />
+                        <LazyLoad>
+                            <img src={images} title={name} className='crew-img' />
+                        </LazyLoad>
                     </div>
                 </div>
             </main>
