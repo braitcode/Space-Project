@@ -13,7 +13,7 @@ const Destination = () => {
         <div className="left-side-dest">
           <div className="text">
             <h1>
-              <span>01</span> Pick your destination
+              <span>01</span> PICK YOUR DESTINATION
             </h1>
           </div>
           <div className="image">

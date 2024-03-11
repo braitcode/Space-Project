@@ -23,9 +23,11 @@
     align-items: flex-start;
     text-align: left;
     color: white;
+    
 }
+
 .left-side-dest h1{
-    font-family: "Mohave";
+    font-family: "Mohave", serif;
     font-weight: 400;
 }
 .left-side-dest h1 span{

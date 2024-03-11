@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 main{
-    width: 90%;
+    width: 100%;
 }
 .title-page-tech{
     display: flex;
@@ -79,6 +79,12 @@ main{
     font-size: 1.23rem;
     line-height: 1.9rem;
     color: white;
+}
+.right-side-content{
+    width: 50vh;
+}
+.right-side-content img{
+    margin-left: 10rem;
 }
 .mobile-tech{
     display: none;
