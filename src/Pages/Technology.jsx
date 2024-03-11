@@ -42,6 +42,9 @@ const Technology = () => {
               <div className="right-side-content">
                 <LazyLoad>
                 <img src={images.portrait} title={name} className="desktop-tech"/>
+                </LazyLoad>
+
+                <LazyLoad>
                 <img src={images.landscape} title={name} className="mobile-tech" />
                 </LazyLoad>
               </div>
