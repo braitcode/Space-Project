@@ -7,9 +7,6 @@ const Destination = () => {
   const [value, setValue] = useState(0);
   const { name, images, description, distance, travel } = items[value];
 
-  // function uppercase(){
-  //     const name = name.toUppercase()
-  // }
   return (
     <div className="destination-bg">
       <div className="destination">

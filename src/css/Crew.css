@@ -1,6 +1,7 @@
 .crew-bg{
     background: url(../space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
     height: 100%;
+    background-size: cover;
 }
 .crew{
     width: 100%;
@@ -22,7 +23,7 @@
     width: 100%;
 }
 .title-crew h1{
-    font-family: 'MOhave';
+    font-family: 'Mohave';
     font-weight: 100;
 }
 .title-crew h1 span{
@@ -34,7 +35,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     height: 90%;
 }
 .left-content-crew{

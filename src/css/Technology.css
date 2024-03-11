@@ -19,7 +19,7 @@ main{
     color: white;
     margin-top: 4rem;
 }
-.title-tech-tech h1{
+.title-page-tech h1{
     font-family: "Mohave", serif;
     font-weight: 300;
 }
@@ -61,7 +61,7 @@ main{
 }
 .about-tech{
     width: 75%;
-    color: white;
+    
 }
 .about-tech h2{
     font-family: "Mohave", serif;
@@ -78,6 +78,7 @@ main{
     width: 85%;
     font-size: 1.23rem;
     line-height: 1.9rem;
+    color: white;
 }
 .mobile-tech{
     display: none;

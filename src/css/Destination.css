@@ -81,7 +81,7 @@
     color: white;
 }
 .title-dest p{
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 .border{
     border: 1px solid grey;
@@ -295,8 +295,6 @@
  margin-bottom: 20px;
  
 }
-
-
 
 .btn-dest button:hover::after,.btn-dest button:focus::after {
  content: '';
