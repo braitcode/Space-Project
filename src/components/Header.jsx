@@ -25,28 +25,28 @@ const Header = () => {
             <div className="nav active">
               <Link to="/" style={{textDecoration: 'none'}}>
                 <li>
-                  <span>00</span> Home
+                  <span>00</span> HOME
                 </li>
               </Link>
             </div>
             <div className="nav"  >
                 <Link to="/destination" style={{textDecoration: 'none'}}>
                 <li>
-                <span>01</span> Destination
+                <span>01</span> DESTINATION
               </li>
                 </Link>
             </div>
             <div className="nav" to="/crew">
                 <Link to='/crew' style={{textDecoration: 'none'}}>
               <li>
-                <span>02</span> Crew
+                <span>02</span> CREW
               </li>
               </Link>
             </div>
             <div className="nav" to="/technology">
             <Link to='/technology' style={{textDecoration: 'none'}}>
               <li>
-                <span>03</span> Technology
+                <span>03</span> TECHNOLOGY
               </li>
               </Link>
             </div>

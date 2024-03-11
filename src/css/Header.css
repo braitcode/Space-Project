@@ -54,6 +54,7 @@
 .right-side ul li{
     color: white;
     font-size: 20px;
+    font-family: "Mohave", serif;
     word-spacing: 10px;
     cursor: pointer;
 }

@@ -124,6 +124,7 @@
     .destination-bg {
        background: url(../space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg);
        height: unset;
+       background-size: cover;
     
    }
    .destination{
@@ -160,6 +161,7 @@
     /* border: 1px solid red; */
     height: 50px;
     width: 80%;
+    z-index: 0;
     
 }
 .text{
