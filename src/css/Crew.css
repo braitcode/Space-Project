@@ -94,10 +94,13 @@
 .left-content-btn .active{
     background-color: rgb(255, 255, 255);
 }
-
+.right-content-crew{
+    height: 60%;
+    /* margin-top: 3.8vh; */
+}
 .right-content-crew img{
     width: 100%;
-    height: 550px;
+    height: 60vh;
 }
 
 @media (min-width: 200px) and (max-width: 767px) {
