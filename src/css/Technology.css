@@ -81,10 +81,11 @@ main{
     color: white;
 }
 .right-side-content{
-    width: 50vh;
+    width: 50%;
 }
 .right-side-content img{
-    margin-left: 10rem;
+    /* margin-left: rem; */
+    height: 60vh;
 }
 .mobile-tech{
     display: none;
@@ -187,8 +188,10 @@ main{
     .desktop-tech{
         display: none;
     }
-    .right-side-tech{
-        width: 100%;
+    .right-side-content img{
+        width: 300px;
+        height: 30vh;
+        margin-left: 3.5rem;
     }
 }
 
@@ -196,7 +199,8 @@ main{
  @media (min-width: 768px) and (max-width: 1024px) {
     .technology-bg{
         background: url(../space-tourism-website-main/starter-code/assets/technology/background-technology-tablet.jpg);
-        height: unset;
+        height: 100%;
+        background-size: cover;
 
         /* background-size: cover; */
     }
@@ -291,7 +295,9 @@ main{
     .desktop-tech{
         display: none;
     }
-    .right-side-tech{
+    .right-side-content img{
         width: 100%;
+        height: 30vh;
+        margin-left: 12rem;
     }
  }

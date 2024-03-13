@@ -135,6 +135,12 @@ img{
         position: fixed;
         top: 0%;
         height: 100px;
-
+        /* padding: 0.5rem; */
+    }
+    span{
+        display: none;
+    }
+    .border-header{
+        display: none;
     }
    }

@@ -2,6 +2,7 @@
     background: url(../space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
     height: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .crew{
     width: 100%;
@@ -95,14 +96,15 @@
 }
 
 .right-content-crew img{
-    max-width: 120%;
-    height: 100%;
+    width: 100%;
+    height: 550px;
 }
 
 @media (min-width: 200px) and (max-width: 767px) {
     .crew-bg{
         background: url(../space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg);
         height: 100%;
+        background-size: cover;
     }
     .crew{
         width: 100%;
@@ -184,8 +186,8 @@
     }
     
     .right-content-crew img{
-        /* width: 100%; */
-        height: 100%;
+        width: 100%;
+        height: 220px;
     }
    
    
@@ -196,6 +198,7 @@
     .crew-bg{
         background: url(../space-tourism-website-main/starter-code/assets/crew/background-crew-tablet.jpg);
         height: 100%;
+        background-size: cover;
     }
     .crew{
         width: 100%;
@@ -277,8 +280,8 @@
     }
     
     .right-content-crew img{
-        /* width: 100%; */
-        height: 80%;
+        width: 100%;
+        height: 480px;
     }
    
    
