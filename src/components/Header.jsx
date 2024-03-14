@@ -4,13 +4,8 @@ import logo from "../space-tourism-website-main/starter-code/assets/shared/logo.
 import hamburger from "../space-tourism-website-main/starter-code/assets/shared/icon-hamburger.svg";
 import { Link } from "react-router-dom";
 import close from "../space-tourism-website-main/starter-code/assets/shared/icon-close.svg";
-const Header = () => {
-  // const handleClick = () => {
-  //   console.log("close");
-  // };
 
-//   const activePage = window.location.pathname;
-//   console.log(activePage)
+const Header = () => {
   
   return (
     <>

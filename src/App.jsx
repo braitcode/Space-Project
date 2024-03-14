@@ -8,6 +8,8 @@ import Crew from './Pages/Crew';
 import Technology from './Pages/Technology';
 import Sidebar from './components/SideNav';
 import PageNotFound from './Pages/404Page';
+import Loader from './components/Loader';
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
         <Route path='/crew' element={<Crew/>}/>
         <Route path='/technology' element={<Technology/>}/>
         <Route path='/*' element={<PageNotFound/>}/>
+        <Route path='/loader' element={<Loader/>}/>
       </Routes>
     </BrowserRouter>
     

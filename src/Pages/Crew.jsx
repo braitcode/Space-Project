@@ -13,8 +13,14 @@ const Crew = () => {
         <div className='crew'>
             <main className='main'>
                 <div className='title-crew'>
+                    <div className="text">
+                        <h1>
+                            <span>02</span> CREW
+                        </h1>
+                    </div>
                 </div>
                 <div className='content-crew'>
+            
                     <div className='left-content-crew'>
                         <div className='left-content-text'>
                             <h2>{role.toUpperCase()}</h2>

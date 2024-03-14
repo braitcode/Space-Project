@@ -8,7 +8,7 @@ const Destination = () => {
   const [items] = useState(destinationDB);
   const [value, setValue] = useState(0);
   const { name, images, description, distance, travel } = items[value];
-
+ console.log(travel);
   return (
     <div className="destination-bg">
       <div className="destination">
@@ -46,11 +46,11 @@ const Destination = () => {
           <ul className="ul-dest">
             <li className="li-dest">
               AVG. DISTANCE
-              <span className="span-dest">{distance.toUpperCase()}</span>
+              <b className="span-dest">{distance.toUpperCase()}</b>
             </li>
             <li className="li-dest">
               EST. TRAVEL TIME
-              <span className="span-dest">{travel.toUpperCase()}</span>
+              <b className="span-dest">{travel.toUpperCase()}</b>
             </li>
           </ul>
         </div>

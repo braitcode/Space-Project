@@ -8,10 +8,10 @@ const Home = () => {
         <section className='home'>
             <div className='container'>
                 <article>
-                    <h4 className='home-h1'>SO YOU WANT TO TRAVEL</h4>
+                    <h4 className='home-h4'>SO YOU WANT TO TRAVEL</h4>
                     <span className='home-span'>SPACE</span>
                     <p className='home-p'>
-                        Let's face it; if you want to go to space, you might as well genueinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly out of this world experience!
+                        Let's face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly out of this world experience!
                     </p>
                 </article>
                 <div className='btn'>

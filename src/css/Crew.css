@@ -28,7 +28,7 @@
     font-weight: 100;
 }
 .title-crew h1 span{
-    padding-right: 15px;
+    padding-right: 5px;
     color: gray;
 }
 
@@ -39,6 +39,7 @@
     align-items: center;
     height: 90%;
 }
+
 .left-content-crew{
     display: flex;
     flex-direction: column;
