@@ -215,6 +215,7 @@
 .ul-dest {
     list-style: none;
     width: 70%;
+    margin-right: 2rem;
     height: auto;
     display: flex;
     flex-direction: column;
